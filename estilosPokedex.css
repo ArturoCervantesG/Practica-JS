@@ -1,0 +1,156 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #3E020D;
+}
+
+.pokedex{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height:fit-content;
+    background-color: #DD082F;
+    border-color: black;
+    border-radius: 1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: black;
+    border-style:outset;
+}
+.titulo{
+    text-align: center;
+    color: aliceblue;
+}
+.circulo_grande{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style:outset;
+}
+.circulo_chico{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style:outset;
+}
+.botones_arriba{
+    margin-left: 20px;
+    display: flex;
+    width: 40%;
+}
+.botones_chicos{
+    width: 70%;
+    display: flex;
+}
+.botones_abajo{
+    margin-left: 20px;
+    display: flex;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.boton_redondeado{
+    width: 6em;
+    height: 2em;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style:outset;
+}
+.cuadro{
+    margin-left: auto;
+    margin-right: auto;
+    height:33em;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #B0B0B0;
+    border-radius: 15px;
+    border-color: black;
+    border-style:outset;
+}
+.pantalla{
+    position: relative;
+    top: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    height: 91%;
+    width: 90%;
+    background-color:#181B1D;
+    border-radius: 15px;
+    border-color: black;
+    border-style:outset;
+}
+.buscar_pokemon{
+    display: flex;
+    margin-left: 50px;
+}
+.input{
+    height: 2em;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #FFCC02;
+    color: gray;
+    font-size: medium;
+    border-color: black;
+    border-style:outset;
+}
+.boton_buscar{
+    margin-left: 2em;
+    height: 2.5;
+    border-radius: 10px;
+    border-color: black;
+    border-style:outset;
+    background-color: #C53838;
+    color: white;
+    font-size: medium;
+}
+#c1{
+    background-color: #01FBFB;
+}
+#c2{
+    background-color: #DD082F;
+}
+#c3{
+    background-color: #FFCC02;
+}
+#c4{
+    background-color: #2FF901;
+}
+#c5{
+    background-color: #519AFB;
+}
+#b1{
+    background-color: #2FF901;
+}
+#b2{
+    background-color: #FFCC02;
+}
+.datos{
+    color: antiquewhite;
+    margin-left: 15px;
+}
+.parte_arriba{
+    display: flex;
+}
+#pokemonNoEncontrado{
+    color: antiquewhite;
+    width: 50%;
+    text-align: center;
+}
+.stats{
+    display: flex;
+    width: 100%;
+}
+.stats_div{
+    padding: 5px;
+    width: 33%;
+}

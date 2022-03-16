@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilosPokedex.css">
+</head>
+<body>
+    <h1 class="titulo">Pokedex</h1>
+    <div class="pokedex">
+        <div class="botones_arriba">
+            <div class="circulo_grande" id="c1"></div>
+            <div class="botones_chicos">
+                <div class="circulo_chico" id="c2"></div>
+                <div class="circulo_chico" id="c3"></div>
+                <div class="circulo_chico" id="c4"></div>
+            </div>
+        </div>
+        <div class="cuadro">
+            <div class = "pantalla">
+                <div class="parte_arriba">
+                    <img src="./pokeball.png" alt="Pokeball" width="130px" id="pokeImg">
+                    <h2 id="pokemonNoEncontrado"></h2>
+                </div>
+                <div class="datos">
+                    <h3 id="pokeNombre">Nombre:</h3>
+                    <h3 id="pokeTipo">Tipo:</h3>
+                    <h3 id="pokeMovimientos">Movimientos:</h3>
+                    <div id="pokeEstadisticas">
+                        <h3>Estadísticas:</h3>
+                        <div class="stats">
+                            <div class="stats_div">
+                                <h4 id="e1">Hp: </h4>
+                                <h4 id="e2">Ataque: </h4>
+                            </div>
+                            <div class="stats_div">
+                                <h4 id="e3">Defensa: </h4>
+                                <h4 id="e4">Ataque especial: </h4>
+                            </div>
+                            <div class="stats_div">
+                                <h4 id="e5">Defensa especial: </h4>
+                                <h4 id="e6">Velocidad: </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="botones_abajo">
+            <div class="circulo_grande" id="c5"></div>
+            <div class="boton_redondeado" id="b1"></div>
+            <div class="boton_redondeado" id="b2"></div>
+        </div>
+        <div class="buscar_pokemon">
+            <input type="text" placeholder="Busca tu pokemon" id="pokeName" name="pokeName" class="input">
+            <button onclick="fetchPokemon()" class="boton_buscar">Buscar</button>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./javaPokedex.js"></script>
+</footer>
+</html>
